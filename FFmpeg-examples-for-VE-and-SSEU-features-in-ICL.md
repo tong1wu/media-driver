@@ -56,7 +56,7 @@ $ git clone https://github.com/intel/gmmlib.git
 $ cd gmmlib && mkdir build && cd build
 $ cmake ..
 $ make -j8
-$ make install
+$ sudo make install
 ```
 
 ## Build Media Driver
