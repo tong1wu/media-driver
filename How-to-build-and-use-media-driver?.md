@@ -23,6 +23,7 @@ $ sudo make install
 ## Build media driver
 
 $ git clone https://github.com/intel/media-driver.git
+$ git clone https://github.com/intel/gmmlib.git
 
 $ mkdir build_media
 
