@@ -62,6 +62,13 @@ Message HLT Enabled
 4
 
 1
+[VALUE]
+
+Codec Message Tags
+
+4
+
+7
 
 [VALUE]
 
