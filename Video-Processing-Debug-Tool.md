@@ -10,6 +10,7 @@ Install media release-internal or debug driver. Please note, release-internal or
 
 $vim /etc/igfx_user_feature.txt (Add below Key path if it's not exist.)
 
+
 [KEY]
 
 0x00000001
@@ -62,6 +63,7 @@ Message HLT Enabled
 4
 
 1
+
 [VALUE]
 
 Codec Message Tags
