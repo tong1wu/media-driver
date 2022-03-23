@@ -1,5 +1,6 @@
-- There was a known incompatible issue in [GmmLib](https://github.com/intel/gmmlib) before first Gmmlib tag intel-gmmlib-18.3.pre1 which introduced from [gmmlib/d6c3b56](https://github.com/intel/gmmlib/commit/d6c3b56745798bdd0c7e4920ebb5b4192225c17b) and reverted in [gmmlib/f7b5da5](https://github.com/intel/gmmlib/commit/f7b5da59be9fcb1edc57394703e96ebaf59a39ff).
+- [2022-03-23] [GmmLib ABI broken](https://github.com/intel/media-driver/issues/1364) between 22.0.3 and 22.1.1 which is introduced by [gmmlib@8dcebfe](by https://github.com/intel/gmmlib/commit/8dcebfefaaacff0cbc262fe050b2b0fd060898d0). If you use the GmmLib version between those two tags, it's required to re-build media-driver with the updated GmmLib version, otherwise you would hit [gmmlib#95](https://github.com/intel/gmmlib/issues/95). 
+
+- [2022-01-19] [GmmLib ABI broken](https://github.com/intel/gmmlib/issues/92) between 21.x and 22.x. If your GmmLib is <=21.x serial(except intel-gmmlib-21.3.4), it's compatible with media-driver <=21.x serial but incompatible with media-driver >=22.x serial. If your GmmLib is >=22.x serial, it's necessary to upgrade media-driver >=22.x serial.
+
+- [2018-01-30] There was a known incompatible issue in [GmmLib](https://github.com/intel/gmmlib) before first Gmmlib tag intel-gmmlib-18.3.pre1 which introduced from [gmmlib/d6c3b56](https://github.com/intel/gmmlib/commit/d6c3b56745798bdd0c7e4920ebb5b4192225c17b) and reverted in [gmmlib/f7b5da5](https://github.com/intel/gmmlib/commit/f7b5da59be9fcb1edc57394703e96ebaf59a39ff).
 It's NOT suggested to use the GmmLib revision between this range.
-
-- [GmmLib API broken](https://github.com/intel/gmmlib/issues/92) between 21.x and 22.x. If your GmmLib is <=21.x serial(except intel-gmmlib-21.3.4), it's compatible with media-driver <=21.x serial but incompatible with media-driver >=22.x serial. If your GmmLib is >=22.x serial, it's necessary to upgrade media-driver >=22.x serial.
-
