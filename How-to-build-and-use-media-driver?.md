@@ -16,15 +16,26 @@ $ cd libva
 
 $ ./autogen.sh --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu
 
-$ make
+$ make -j8
 
 $ sudo make install
 
 ## Build media driver
 
-$ git clone https://github.com/intel/media-driver.git
-
 $ git clone https://github.com/intel/gmmlib.git
+
+$ cd gmmlib/
+
+$ mkdir build && cd build
+
+$ cmake -DCMAKE_INSTALL_PREFIX=/usr/ -DCMAKE_BUILD_TYPE=ReleaseInternal ..
+  (this command is building release internal version)
+
+$ make -j8
+
+$ sudo make install
+
+$ git clone https://github.com/intel/media-driver.git
 
 $ mkdir build_media
 
