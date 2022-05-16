@@ -18,4 +18,4 @@ Below table shows the repos of these components.
 | MediaSDK RT         | https://github.com/Intel-Media-SDK/MediaSDK            |
 | MedisSDK dispatcher | https://github.com/Intel-Media-SDK/MediaSDK            |
 | MediaSDK sample     | https://github.com/Intel-Media-SDK/MediaSDK            |
-| KMD:i915 kernel     | https://www.kernel.org/                                |
+| KMD:i915 kernel     | Stable: https://www.kernel.org/ <br/>Latest: https://github.com/freedesktop/drm-tip                                 |
