@@ -17,4 +17,4 @@
 - Known Issues
 - Debug Tool
     - [[Decode and Encode Debug Tool and surface dump]]
-    - [[Video Processing Debug Tool and surface dump]]
+    - [[Video Processing Debug Tool]]
