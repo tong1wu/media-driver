@@ -15,6 +15,7 @@
     - [[Chrome Browser]]
     - [[Firefox]]
 - Known Issues
+    - [[Compatibility with GmmLib]]
 - Debug Tool
     - [[Decode and Encode Debug Tool and surface dump]]
     - [[Video Processing Debug Tool]]
