@@ -19,8 +19,6 @@ Then build kernel by below commands.
 $ cp /boot/config-`uname -r`* .config
 $ make defconfig
 $ make -j8
-$ sudo make modules_install
-$ sudo make install
 ```
 # Install the kernel
 ```bash
