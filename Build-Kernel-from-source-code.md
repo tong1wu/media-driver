@@ -30,7 +30,7 @@ $ su -c "make modules_install install"
 ```
 # GuC/HuC firmware
 In some cases, we need GuC/HuC supporting, otherwise some features will be missed.
-You use below commands to check the status of GuC/HuC.
+You can use below commands to check the status of GuC/HuC.
 
 ## Check GuC status
 ```bash
