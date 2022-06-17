@@ -1,0 +1,4 @@
+Media driver Build system is designed to platform and feature independent, User could disable/enable any platforms, but these part is less maintenance , without test coverage , people always use one binary to cover all platforms and all features.  but certainly , there are some special request to customize the library size. 
+
+PR https://github.com/intel/media-driver/pull/1304 was merged to support part of this request. still not clean all of the code dependency , but could disable the media kernel binary (shader) ,  but it could reduce the binary size a lot. but the some of the source code is still compiled into final library 
+ binary. 
