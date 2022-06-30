@@ -17,6 +17,7 @@
 - Known Issues
     - [[Compatibility with GmmLib]]
     - [[Per platform build]]
+    - [[X-Wayland]]
 - Debug Tool
     - [[Decode and Encode Debug Tool and surface dump]]
     - [[Video Processing Debug Tool]]
