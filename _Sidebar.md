@@ -18,6 +18,7 @@
     - [[Compatibility with GmmLib]]
     - [[Per platform build]]
     - [[X-Wayland]]
+    - [[Deprecated Features]]
 - Debug Tool
     - [[Decode and Encode Debug Tool and surface dump]]
     - [[Video Processing Debug Tool]]
