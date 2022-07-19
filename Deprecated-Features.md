@@ -1,0 +1,2 @@
+## CMRT is deprecated from Alchemist(DG2)/ATSM
+CMRT(C for media Runtime) is deprecated from Alchemist(DG2)+ platforms. If you intent to run CMRT related cases on legacy platforms, please make sure the IGC version <= [igc-1.0.10200](https://github.com/intel/intel-graphics-compiler/releases/tag/igc-1.0.10200)
