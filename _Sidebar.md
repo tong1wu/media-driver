@@ -7,7 +7,7 @@
     - [[Media Driver Shaders (EU Kernels)]]
     - [[Install from OSV package]]
     - [[Install from Agama]]
-    - [[ACM/ATS-M Setup]]
+    - [[Alchemist(DG2) and ATSM Setup]]
 - GPU HW acceleration enabling
     - [[FFMpeg]]
     - [[Gstreamer]]
